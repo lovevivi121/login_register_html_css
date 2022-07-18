@@ -1,0 +1,556 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+    /* background-color: pink; */
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+body {
+    background-size: 100% 100%;
+}
+
+
+/* body {
+    height: 3000px;
+} */
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+
+
+/* 全局部分 */
+
+
+/* 头部样式 */
+
+.header {
+    height: 64px;
+    padding: 0 16px;
+    background-color: #ffffff;
+    /* background-color: yellow; */
+}
+
+
+/* head-logo样式 */
+
+.head-logo {
+    float: left;
+    padding-top: 5px;
+    height: 64px;
+}
+
+.head-logo img {
+    width: 94.344px;
+    height: 48px;
+}
+
+
+/* head-logo样式 */
+
+
+/* nav样式 */
+
+.nav {
+    float: left;
+    height: 48px;
+    padding-left: 48px;
+}
+
+.nav a {
+    display: block;
+    float: left;
+    font-size: 16px;
+    height: 64px;
+    line-height: 64px;
+    margin-right: 32px;
+}
+
+
+/* nav样式 */
+
+
+/* login样式 */
+
+.login {
+    float: right;
+}
+
+.login a {
+    font-size: .8em;
+    height: 64px;
+    margin-left: 0.5em;
+    line-height: 64px;
+}
+
+
+/* login样式 */
+
+
+/* 头部样式完毕 */
+
+
+/* 主体样式 */
+
+
+/* main框架 */
+
+.main {
+    height: 660px;
+    background-color: #efefef;
+    background-repeat: no-repeat;
+}
+
+
+/* main框架 */
+
+
+/* .container框架 */
+
+.container {
+    position: relative;
+    /* height: 500px; */
+    /* background-color: #efefef; */
+}
+
+
+/* form框架 */
+
+
+/* 制作轮播图部分 */
+
+
+/* .step_box {
+    overflow: hidden;
+}*/
+
+.step_ {
+    /* float: left; */
+    display: none;
+}
+
+.step3 {
+    display: none;
+}
+
+
+/* .current {
+    display: block;
+} */
+
+.step3 .register .succuss p {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #3498db;
+}
+
+.step3 .register .succuss .btn {
+    overflow: hidden;
+}
+
+.step3 .register .succuss .btn button {
+    margin-left: 13px;
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    width: 172px;
+    background-color: #3498db;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/* 制作轮播图部分 */
+
+.container .form {
+    position: relative;
+    left: 361px;
+    top: 40px;
+    padding: 21px 48px;
+    margin: 0 0;
+    width: 382px;
+    height: 522px;
+    background-color: rgba(255, 255, 255, .5);
+    /* background-color: #ffffff; */
+}
+
+.container .form img {
+    position: relative;
+    left: 120px;
+    /* margin-left: 80px; */
+    width: 160px;
+    height: 81.39px;
+}
+
+
+/* motto框架 */
+
+.form .motto {
+    display: block;
+    position: relative;
+    left: 102px;
+    font-weight: 400;
+    color: #3498db;
+    height: 24px;
+    line-height: 24px;
+    width: 222px;
+    margin-bottom: .5em;
+}
+
+
+/* motto框架 */
+
+.step {
+    /* position: relative;
+    top: -10px; */
+    height: 45px;
+    /* background-color: pink; */
+}
+
+.step_blue {
+    background-color: #3498db;
+}
+
+.step_arrow_blue {
+    border-left: 15px solid #3498db;
+}
+
+.step_arrow__blue {
+    border-top: 23px solid #3498db;
+    border-right: 00px solid #3498db;
+    border-bottom: 22px solid #3498db;
+}
+
+.step_gray {
+    background-color: #dadada;
+}
+
+.step_arrow_gray {
+    border-left: 15px solid #dadada;
+}
+
+.step_arrow__gray {
+    border-top: 23px solid #dadada;
+    border-right: 00px solid #dadada;
+    border-bottom: 22px solid #dadada;
+}
+
+.width {
+    width: 107.3392px;
+}
+
+.step_1 {
+    float: left;
+    /* width: 115px; */
+    height: 45px;
+    /* background-color: yellow; */
+}
+
+.arrow {
+    float: left;
+    height: 0;
+    width: 0;
+    /* border-left: 15px solid red; */
+    border-right: 0px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-top: 23px solid transparent;
+}
+
+.arrow_ {
+    float: left;
+    height: 0;
+    width: 0;
+    /* border-top: 23px solid red; */
+    /* border-right: 00px solid red; */
+    /* border-bottom: 22px solid red; */
+    border-left: 15px solid transparent;
+}
+
+.step_2 {
+    float: left;
+    /* width: 115px; */
+    height: 45px;
+    /* background-color: blue; */
+}
+
+.step_3 {
+    float: left;
+    /* width: 115px; */
+    height: 45px;
+    /* background-color: black; */
+}
+
+.step p {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 8px;
+    color: #ebebeb;
+}
+
+#p1 {
+    padding-left: 24px;
+}
+
+
+/* step部分结束 */
+
+.red_star {
+    color: red;
+}
+
+.register {
+    height: 344px;
+    /* background-color: yellow; */
+}
+
+.form-item {
+    margin-bottom: 12px;
+}
+
+.register form label {
+    color: #404040;
+    font-size: 16px;
+}
+
+.register form .item {
+    overflow: hidden;
+    border: 1px solid #bfbfbf;
+}
+
+.register form .form-item input {
+    outline: none;
+    float: left;
+    width: 356px;
+    height: 18px;
+    /* line-height: 18px; */
+    padding: 4px 12px;
+    border: none;
+}
+
+
+/* /////////////////////////////////////// */
+
+
+/* 密码框的显现与隐藏 */
+
+#password {
+    width: 335px;
+}
+
+#view {
+    left: 0;
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+}
+
+#repassword {
+    width: 335px;
+}
+
+#review {
+    left: 0;
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+}
+
+
+/* 验证码模块 */
+
+#checkbox {
+    overflow: hidden;
+}
+
+#checkbox input {
+    float: left;
+    height: 20px;
+    line-height: 18px;
+    width: 100px;
+    margin-left: 18px;
+    /* background-color: transparent; */
+}
+
+#code {
+    font-family: Arial, 宋体;
+    font-style: italic;
+    color: green;
+    border: 0;
+    padding: 2px 3px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    width: 60px;
+}
+
+#input {
+    width: 100px;
+}
+
+.agreey {
+    overflow: hidden;
+}
+
+.agreey input {
+    float: left;
+    height: 23px;
+}
+
+.agreey p {
+    float: left;
+    margin-left: 10px;
+}
+
+.agreey p a {
+    color: #3498db;
+}
+
+.next {
+    display: inline-block;
+    width: 92%;
+    padding: 5px 14px;
+    font-size: .875em;
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+}
+
+.step2 .next {
+    position: relative;
+    top: 43px;
+}
+
+
+/* /////////// */
+
+
+/* 立即充值 */
+
+
+/* 柚子样式 */
+
+#youzi {
+    position: relative;
+    left: 77px;
+    margin-top: 9px;
+    height: 219px;
+    width: 240px;
+}
+
+
+/* footer样式 */
+
+.footer {
+    overflow: hidden;
+    height: 182px;
+    background-color: #333333;
+}
+
+.m {
+    width: 59.79%;
+    padding: 0 340px;
+}
+
+.footer .footer-logo img {
+    position: relative;
+    top: 60px;
+    float: left;
+    width: 41px;
+    height: 60px;
+}
+
+.footer .slogan {
+    position: relative;
+    top: 60px;
+}
+
+.footer .slogan p {
+    float: left;
+    padding-left: 9.1px;
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #ebebeb;
+}
+
+.more {
+    float: right;
+    text-align: right;
+    padding-top: 25px;
+    /* overflow: hidden; */
+}
+
+.more a {
+    /* text-align: right; */
+    /* padding: 0 2px; */
+    padding-left: 2px;
+    padding-right: 7px;
+    line-height: 1.5;
+    font-size: .875em;
+    color: #ebebeb;
+    border-right: 2px solid #ebebeb;
+}
+
+.more p {
+    font-size: .875em;
+    line-height: 1.5;
+    color: #ebebeb;
+}
+
+.more .more-bottom a {
+    border-right: none;
+}
+
+.more a:hover {
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+/* ////////////////// */
+
+
+/* 换肤效果 */
+
+.container .skin {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    /* height: 100px; */
+    width: 100px;
+    /* background-color: pink; */
+}
+
+.container .skin {
+    overflow: hidden;
+    list-style: none;
+    /* display: none; */
+}
+
+.container .skin div {
+    float: left;
+}
+
+.container .skin>div {
+    display: none;
+}
+
+.container .skin img {
+    height: 100px;
+    width: 100px;
+}

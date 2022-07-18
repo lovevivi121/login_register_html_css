@@ -1,0 +1,434 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+    /* background-color: pink; */
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+body {
+    background-size: 100% 100%;
+}
+
+
+/* body {
+    height: 3000px;
+} */
+
+
+/* 全局部分 */
+
+
+/* 头部样式 */
+
+.header {
+    height: 64px;
+    padding: 0 16px;
+    background-color: #ffffff;
+    /* background-color: yellow; */
+}
+
+
+/* head-logo样式 */
+
+.head-logo {
+    float: left;
+    padding-top: 5px;
+    height: 64px;
+}
+
+.head-logo img {
+    width: 94.344px;
+    height: 48px;
+}
+
+
+/* head-logo样式 */
+
+
+/* nav样式 */
+
+.nav {
+    float: left;
+    height: 48px;
+    padding-left: 48px;
+}
+
+.nav a {
+    display: block;
+    float: left;
+    font-size: 16px;
+    height: 64px;
+    line-height: 64px;
+    margin-right: 32px;
+}
+
+
+/* nav样式 */
+
+
+/* login样式 */
+
+.login {
+    float: right;
+}
+
+.login a {
+    font-size: .8em;
+    height: 64px;
+    margin-left: 0.5em;
+    line-height: 64px;
+}
+
+
+/* login样式 */
+
+
+/* 头部样式完毕 */
+
+
+/* 主体样式 */
+
+
+/* main框架 */
+
+.main {
+    height: 660px;
+    background-color: #efefef;
+    background-repeat: no-repeat;
+}
+
+
+/* main框架 */
+
+
+/* .container框架 */
+
+.container {
+    position: relative;
+    /* height: 500px; */
+    /* background-color: #efefef; */
+}
+
+
+/* .container框架 */
+
+
+/* ////////////////// */
+
+
+/* 换肤效果 */
+
+.container .skin {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    /* height: 100px; */
+    width: 100px;
+    /* background-color: pink; */
+}
+
+.container .skin {
+    overflow: hidden;
+    list-style: none;
+    /* display: none; */
+}
+
+.container .skin div {
+    float: left;
+}
+
+.container .skin>div {
+    display: none;
+}
+
+.container .skin img {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* form框架 */
+
+.container .form {
+    position: relative;
+    left: 361px;
+    top: 40px;
+    padding: 21px 48px;
+    margin: 0 0;
+    width: 382px;
+    height: 522px;
+    background-color: rgba(255, 255, 255, .5);
+    transition: all 1s;
+}
+
+.form:hover {
+    transform: rotate(360deg);
+}
+
+
+/* //////////////// */
+
+
+/* 给form加一个css */
+
+
+/* 当点击登录按钮的时候，就会使form旋转 */
+
+.container .form img {
+    position: relative;
+    left: 120px;
+    /* margin-left: 80px; */
+    width: 160px;
+    height: 81.39px;
+}
+
+
+/* motto框架 */
+
+.form .motto {
+    display: block;
+    position: relative;
+    left: 102px;
+    font-weight: 400;
+    color: #3498db;
+    height: 24px;
+    line-height: 24px;
+    width: 222px;
+    margin-bottom: 1.5em;
+}
+
+
+/* motto框架 */
+
+
+/* login-item框架 */
+
+.form-item {
+    margin-bottom: 12px;
+}
+
+.login-item form label {
+    color: #404040;
+    font-size: 16px;
+}
+
+.login-item form .item {
+    overflow: hidden;
+    border: 1px solid #bfbfbf;
+}
+
+.login-item form input {
+    outline: none;
+    float: left;
+    width: 356px;
+    height: 18px;
+    padding: 4px 12px;
+    border: none;
+}
+
+
+/* ////////////////////////////// */
+
+
+/* 密码显现隐藏框架 */
+
+#password {
+    width: 335px;
+}
+
+#view {
+    left: 0;
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+}
+
+
+/* ///////// */
+
+
+/* 验证码模块 */
+
+#checkbox {
+    overflow: hidden;
+}
+
+#checkbox input {
+    float: left;
+    height: 28px;
+    line-height: 24px;
+    width: 100px;
+    margin-left: 18px;
+    /* background-color: transparent; */
+}
+
+#code {
+    font-family: Arial, 宋体;
+    font-style: italic;
+    color: green;
+    border: 0;
+    padding: 2px 3px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    width: 60px;
+}
+
+#input {
+    width: 100px;
+}
+
+
+/* /////form-item框架 */
+
+.login_ {
+    display: inline-block;
+    width: 92%;
+    padding: 5px 14px;
+    font-size: .875em;
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+}
+
+
+/* /////form-item框架 */
+
+
+/* 忘记密码 */
+
+.forget {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+.form-item a {
+    font-size: 18px;
+    color: #3498db;
+}
+
+.form-item a:hover {
+    color: #0056b3;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(232, 232, 232);
+    border: none;
+}
+
+
+/* 其他登陆方式 */
+
+.other {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+.other .other_login {
+    margin-right: 28px;
+    font-size: 18px;
+    color: #888;
+}
+
+.red_star {
+    color: red;
+}
+
+
+/* 没有账号注册 */
+
+.register {
+    display: flex;
+    justify-content: center;
+}
+
+.register span {
+    font-size: 18px;
+}
+
+
+/* 主体样式 */
+
+
+/* footer样式 */
+
+.footer {
+    overflow: hidden;
+    height: 182px;
+    background-color: #333333;
+}
+
+.m {
+    width: 59.79%;
+    padding: 0 340px;
+}
+
+.footer .footer-logo img {
+    position: relative;
+    top: 60px;
+    float: left;
+    width: 41px;
+    height: 60px;
+}
+
+.footer .slogan {
+    position: relative;
+    top: 60px;
+}
+
+.footer .slogan p {
+    float: left;
+    padding-left: 9.1px;
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #ebebeb;
+}
+
+.more {
+    float: right;
+    text-align: right;
+    padding-top: 25px;
+    /* overflow: hidden; */
+}
+
+.more a {
+    /* text-align: right; */
+    /* padding: 0 2px; */
+    padding-left: 2px;
+    padding-right: 7px;
+    line-height: 1.5;
+    font-size: .875em;
+    color: #ebebeb;
+    border-right: 2px solid #ebebeb;
+}
+
+.more p {
+    font-size: .875em;
+    line-height: 1.5;
+    color: #ebebeb;
+}
+
+.more .more-bottom a {
+    border-right: none;
+}
+
+.more a:hover {
+    border-bottom: 1px solid #ebebeb;
+}

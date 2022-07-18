@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="style_register.css">
+</head>
+<script src="index_register.js"></script>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="header w">
+        <!-- head-logo部分开始 -->
+        <div class="head-logo">
+            <img src="images/head-logo.png" alt="">
+        </div>
+
+        <!-- nav部分开始 -->
+        <div class="nav">
+            <a href="javascript:;">洛谷网校</a>
+            <a href="javascript:;">洛谷有题</a>
+        </div>
+
+        <!-- login部分开始 -->
+        <div class="login">
+            <a href="index_login.html">登录</a>
+            <a href="index_register.html">注册</a>
+        </div>
+
+    </div>
+    <!-- 头部结束 -->
+    <!-- 主体部分开始 -->
+    <div class="main">
+        <div class="container w step_box">
+            <!-- ////////////第一步 -->
+            <div class="form step_" style="display: block;">
+                <!-- form里的img -->
+                <img src="images/head.png" alt="">
+
+                <!-- motto部分 -->
+                <span class="motto">在洛谷，享受coding的快乐!</span>
+
+                <!-- 步骤部分 -->
+                <div class="step">
+                    <div class="step_1 width step_blue">
+                        <p>填写账户信息</p>
+                    </div>
+                    <div class="arrow step_arrow_blue"></div>
+                    <div class="arrow_ step_arrow__gray"></div>
+                    <div class="step_2 width step_gray">
+                        <p>验证账户信息</p>
+                    </div>
+                    <div class="arrow step_arrow_gray"></div>
+                    <div class="arrow_ step_arrow__gray"></div>
+                    <div class="step_3 width step_gray">
+                        <p id="p1">注册成功</p>
+                    </div>
+                </div>
+                <div class="register">
+                    <form action="" name="submit">
+                        <div class="form-item username-box">
+                            <label for="username"><span class="red_star">*</span>用户名</label>
+                            <div class="item">
+                                <input type="text" id="username" placeholder="请输入您的用户名">
+                            </div>
+                            <p id="p1_" class="red_star">*必填</p>
+                        </div>
+                        <div class="form-item">
+                            <label for="password"><span class="red_star">*</span>登录密码</label>
+                            <div class="item">
+                                <input type="password" id="password" value="">
+                                <img src="images/密码隐藏状态.png" alt="" id="view">
+                            </div>
+                            <p id="p2" class="red_star">*必填</p>
+                        </div>
+                        <div class="form-item">
+                            <label for="re_password"><span class="red_star">*</span>重复密码</label>
+                            <div class="item">
+                                <input type="password" name="repassword" id="repassword" value="">
+                                <img src="images/密码隐藏状态.png" alt="" id="review">
+                            </div>
+                            <p id="p3" class="red_star">*必填</p>
+                        </div>
+                        <div class="">
+                            <label for="check"><span class="red_star">*</span>验证码</label>
+                            <div class="" id="checkbox">
+                                <input type="text" name="check" id="input" placeholder="右方验证码">
+                                <input type="button" name="" id="code">
+                                <input type="button" name="" id="check_" value="验证">
+                            </div>
+                            <p></p>
+                        </div>
+                        <div class="agreey">
+                            <input type="checkbox" id="agreey">
+                            <p id="p4">我同意<a href="javascript:;">《洛谷注册协议》</a></p>
+                        </div>
+                        <div class="next">下一步</div>
+                    </form>
+                </div>
+            </div>
+            <!-- ///////////第二步 -->
+            <div class="form step_">
+                <!-- form里的img -->
+                <img src="images/head.png" alt="">
+
+                <!-- motto部分 -->
+                <span class="motto">在洛谷，享受coding的快乐!</span>
+
+                <!-- 步骤部分 -->
+                <div class="step">
+                    <div class="step_1 width step_blue">
+                        <p>填写账户信息</p>
+                    </div>
+                    <div class="arrow step_arrow_blue"></div>
+                    <div class="arrow_ step_arrow__blue"></div>
+                    <div class="step_2 width step_blue">
+                        <p>验证账户信息</p>
+                    </div>
+                    <div class="arrow step_arrow_blue"></div>
+                    <div class="arrow_ step_arrow__gray"></div>
+                    <div class="step_3 width step_gray">
+                        <p id="p1">注册成功</p>
+                    </div>
+                </div>
+                <div class="register step2">
+                    <form action="">
+                        <div class="form-item">
+                            <label for="phone"><span class="red_star">*</span>手机</label>
+                            <div class="item">
+                                <input type="text" id="phone" name="phone">
+                            </div>
+                            <button id="sendmassage">发送验证码</button>
+                        </div>
+                        <div class="form-item">
+                            <label for="yanzhengma"><span class="red_star">*</span>验证码</label>
+                            <div class="item">
+                                <input type="text" name="yanzhengma" id="yanzhengma">
+                            </div>
+                        </div>
+                        <p>我们已经将验证码发送到了：
+                            <p id="pp">&nbsp;</p>
+                            请将信息里面的4位号码填写到上面的验证码栏完成注册。</p>
+                        <p>如果您没收到？<button id="again">点这里</button>再次发送</p>
+                        <br>
+                        <div class="next">下一步</div>
+                    </form>
+                </div>
+            </div>
+            <!-- ////////////////第三步 -->
+            <div class="form step3">
+                <!-- form里的img -->
+                <img src="images/head.png" alt="">
+
+                <!-- motto部分 -->
+                <span class="motto">在洛谷，享受coding的快乐!</span>
+
+                <!-- 步骤部分 -->
+                <div class="step">
+                    <div class="step_1 width step_blue">
+                        <p>填写账户信息</p>
+                    </div>
+                    <div class="arrow step_arrow_blue"></div>
+                    <div class="arrow_ step_arrow__blue"></div>
+                    <div class="step_2 width step_blue">
+                        <p>验证账户信息</p>
+                    </div>
+                    <div class="arrow step_arrow_blue"></div>
+                    <div class="arrow_ step_arrow__blue"></div>
+                    <div class="step_3 width step_blue">
+                        <p id="p1">注册成功</p>
+
+                    </div>
+                </div>
+                <div class="register">
+                    <div class="succuss">
+                        <p>恭喜您注册成功!</p>
+                        <div class="btn">
+                            <button id="money">立即充值</button>
+                            <button>立即登录</button>
+                        </div>
+                    </div>
+                    <div class="succuss_img">
+                        <img src="images/柚子.jpg" alt="" id="youzi">
+                    </div>
+                </div>
+            </div>
+            <div class="skin">
+                <li class="list">
+                    <div><img src="skins/skin_1.jpg" alt=""></div>
+                </li>
+
+                <div><img src="skins/skin_2.jpg" alt=""></div>
+                <div><img src="skins/skin_3.jpg" alt=""></div>
+                <div><img src="skins/skin_4.jpg" alt=""></div>
+                <div><img src="skins/skin_5.jpg" alt=""></div>
+                <div><img src="skins/skin_6.jpg" alt=""></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分结束 -->
+    <!-- footer部分 -->
+    <div class="footer m">
+        <div class="footer-logo">
+            <img src="images/footer-logo.png" alt="">
+        </div>
+        <div class="slogan">
+            <p>在洛谷，<br>享受coding的欢乐</p>
+        </div>
+        <div class="more">
+            <div class="about">
+                <a href="javascript:;">关于洛谷</a>
+                <a href="javascript:;">帮助中心</a>
+                <a href="javascript:;">用户协议</a>
+                <a href="javascript:;">联系我们</a>
+                <br>
+                <a href="javascript:;">小黑屋</a>
+                <a href="javascript:;">陶片放逐</a>
+                <a href="javascript:;">社区规则</a>
+                <a href="javascript:;">招贤纳才</a>
+            </div>
+            <div class="more-bottom">
+                <a href="javascript:;">Developed by LiJunWei</a>
+                <p>2022.3.25-2022.4.3</p>
+                <p>增值电信业务经营许可证 渝1314520</p>
+                <a href="javascript:;">渝ICP备19942335718电话号All right reserved</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

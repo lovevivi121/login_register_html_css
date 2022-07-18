@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洛谷登陆界面</title>
+    <link rel="stylesheet" href="style_login.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script src="index_login.js"></script>
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="header w">
+        <!-- head-logo部分开始 -->
+        <div class="head-logo">
+            <img src="images/head-logo.png" alt="">
+        </div>
+        <!-- head-logo部分结束 -->
+        <!-- nav部分开始 -->
+        <div class="nav">
+            <a href="javascript:;">洛谷网校</a>
+            <a href="javascript:;">洛谷有题</a>
+        </div>
+        <!-- nav部分结束 -->
+        <!-- login部分开始 -->
+        <div class="login">
+            <a href="index_login.html">登录</a>
+            <a href="index_register.html">注册</a>
+        </div>
+        <!-- login部分结束 -->
+    </div>
+    <!-- 头部结束 -->
+    <!-- 主体部分开始 -->
+    <div class="main">
+        <div class="container w">
+            <div class="form">
+                <!-- form里的img -->
+                <img src="images/head.png" alt="">
+                <!-- form里的img -->
+                <!-- motto部分 -->
+                <span class="motto">在洛谷，享受coding的快乐!</span>
+                <!-- motto部分 -->
+                <!-- login-item部分 -->
+                <div class="login-item">
+                    <form action="">
+                        <div class="form-item username-box">
+                            <label for="username">用户名</label><br>
+                            <div class="username item">
+                                <input type="text" id="username" placeholder="用户名、手机或电子邮箱">
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <label for="password">密码</label>
+                            <div class="password item">
+                                <input type="password" id="password">
+                                <img src="images/密码隐藏状态.png" alt="" id="view">
+                            </div>
+                        </div>
+                        <div class="">
+                            <label for="check"><span class="red_star">*</span>验证码</label>
+                            <div class="" id="checkbox">
+                                <input type="text" name="check" id="input" placeholder="右侧图形验证码">
+                                <input type="button" name="" id="code">
+                                <input type="button" name="" id="check_" value="验证">
+                            </div>
+                            <p></p>
+                        </div>
+                        <div class="login_">登录</div>
+                        <div class="form-item forget">
+                            <a href="javascript:;" id="forget">忘记密码/两步验证</a>
+                        </div>
+                        <hr>
+                        <div class="form-item other">
+                            <span class="other_login">第三方平台登陆</span>
+                        </div>
+                        <div class="form-item register">
+                            <span>没有账号？</span>
+                            <a href="index_register.html">注册</a>
+                        </div>
+                    </form>
+                </div>
+                <!-- login-item部分 -->
+            </div>
+            <div class="skin">
+                <li class="list">
+                    <div><img src="skins/skin_1.jpg" alt=""></div>
+                </li>
+
+                <div><img src="skins/skin_2.jpg" alt=""></div>
+                <div><img src="skins/skin_3.jpg" alt=""></div>
+                <div><img src="skins/skin_4.jpg" alt=""></div>
+                <div><img src="skins/skin_5.jpg" alt=""></div>
+                <div><img src="skins/skin_6.jpg" alt=""></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分结束 -->
+    <!-- footer部分 -->
+    <div class="footer m">
+        <div class="footer-logo">
+            <img src="images/footer-logo.png" alt="">
+        </div>
+        <div class="slogan">
+            <p>在洛谷，<br>享受coding的欢乐</p>
+        </div>
+        <div class="more">
+            <div class="about">
+                <a href="javascript:;">关于洛谷</a>
+                <a href="javascript:;">帮助中心</a>
+                <a href="javascript:;">用户协议</a>
+                <a href="javascript:;">联系我们</a>
+                <br>
+                <a href="javascript:;">小黑屋</a>
+                <a href="javascript:;">陶片放逐</a>
+                <a href="javascript:;">社区规则</a>
+                <a href="javascript:;">招贤纳才</a>
+            </div>
+            <div class="more-bottom">
+                <a href="javascript:;">Developed by LiJunWei</a>
+                <p>2022.3.25-2022.4.3</p>
+                <p>增值电信业务经营许可证 渝1314520</p>
+                <a href="javascript:;">渝ICP备19942335718电话号All right reserved</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
